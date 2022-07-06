@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" lang="en-US">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="p:domain_verify" content="be380fde64353e21429cac5e340c2f44" />
+<script data-ad-client="ca-pub-7089100907045419" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<title>Web Design Code Snippets &mdash; CodeHim</title>
+<meta name="description" content="At CodeHim you can find a variety of free web design code snippets. Here you can download HTML, CSS, JavaScript, and Bootstrap code examples for website design." />
+<link rel="canonical" href="https://www.codehim.com/" />
+<link rel="next" href="https://www.codehim.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="CodeHim - Web Design Code &amp; Scripts" />
+<meta property="og:description" content="CodeHim is one of the best developer websites that provide web designers and developers with a simple way to preview and download a variety of free code &amp; scripts." />
+<meta property="og:url" content="https://www.codehim.com/" />
+<meta property="og:site_name" content="CodeHim" />
+<meta property="og:image" content="https://www.codehim.com/wp-content/uploads/2019/06/cropped-codehim-logo-512.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@CodeHimOfficial" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.codehim.com/#organization","name":"CodeHim - Web Design Code & Scripts","url":"https://www.codehim.com/","sameAs":["https://www.instagram.com/codehim/","https://www.linkedin.com/company/codehim","https://co.pinterest.com/codehim/","https://www.youtube.com/channel/UC16aiEEtMR-5SN7MDWweQeQ","https://www.facebook.com/codehimofficial","https://twitter.com/CodeHimOfficial"],"logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.codehim.com/#/schema/logo/image/","url":"https://www.codehim.com/wp-content/uploads/2019/04/codehim-logo-512.png","contentUrl":"https://www.codehim.com/wp-content/uploads/2019/04/codehim-logo-512.png","width":512,"height":512,"caption":"CodeHim - Web Design Code & Scripts"},"image":{"@id":"https://www.codehim.com/#/schema/logo/image/"}},{"@type":"WebSite","@id":"https://www.codehim.com/#website","url":"https://www.codehim.com/","name":"CodeHim","description":"Web Design Code Snippets","publisher":{"@id":"https://www.codehim.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.codehim.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://www.codehim.com/#webpage","url":"https://www.codehim.com/","name":"Web Design Code Snippets &mdash; CodeHim","isPartOf":{"@id":"https://www.codehim.com/#website"},"about":{"@id":"https://www.codehim.com/#organization"},"description":"At CodeHim you can find a variety of free web design code snippets. Here you can download HTML, CSS, JavaScript, and Bootstrap code examples for website design.","breadcrumb":{"@id":"https://www.codehim.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.codehim.com/"]}]},{"@type":"BreadcrumbList","@id":"https://www.codehim.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
+<meta name="msvalidate.01" content="8E86D5A31E2FC3AD65F408F706FE88B4" />
+<meta name="google-site-verification" content="9rQ_6Ae6wu9lJ3iPGiNXPM8__tzYZkcIxY5XNGFLpwM" />
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="CodeHim &raquo; Feed" href="https://www.codehim.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CodeHim &raquo; Comments Feed" href="https://www.codehim.com/comments/feed/" />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='rpt_front_style-css' href='https://www.codehim.com/wp-content/plugins/related-posts-thumbnails/assets/css/front.css?ver=1.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-magazine-lite-css' href='https://www.codehim.com/wp-content/themes/mh-magazine-lite/style.css?ver=43.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css' href='https://www.codehim.com/wp-content/themes/mh-magazine-lite/includes/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.codehim.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.codehim.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='gainwp-tracking-analytics-events-js-extra'>
+/* <![CDATA[ */
+var gainwpUAEventsData = {"options":{"event_tracking":"1","event_downloads":"zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*","event_bouncerate":0,"aff_tracking":0,"event_affiliates":"\/out\/","hash_tracking":0,"root_domain":"codehim.com","event_timeout":100,"event_precision":0,"event_formsubmit":0,"ga_pagescrolldepth_tracking":0,"ga_with_gtag":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.codehim.com/wp-content/plugins/ga-in/front/js/tracking-analytics-events.min.js?ver=5.4.6' id='gainwp-tracking-analytics-events-js'></script>
+<script type='text/javascript' src='https://www.codehim.com/wp-content/plugins/stopbadbots/assets/js/stopbadbots.js?ver=d60642cb9ae0b551f947311d5bffb7d3' id='stopbadbots-main-js-js'></script>
+<script type='text/javascript' src='https://www.codehim.com/wp-content/themes/mh-magazine-lite/js/scripts.js' id='mh-scripts-js'></script>
+<link rel="https://api.w.org/" href="https://www.codehim.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.codehim.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.codehim.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="Site Kit by Google 1.77.0" /> <style>
+			#related_posts_thumbnails li{
+				border-right: 1px solid #dddddd;
+				background-color: #ffffff			}
+			#related_posts_thumbnails li:hover{
+				background-color: #eeeeee;
+			}
+			.relpost_content{
+				font-size:	12px;
+				color: 		#333333;
+			}
+			.relpost-block-single{
+				background-color: #ffffff;
+				border-right: 1px solid  #dddddd;
+				border-left: 1px solid  #dddddd;
+				margin-right: -1px;
+			}
+			.relpost-block-single:hover{
+				background-color: #eeeeee;
+			}
+		</style>
+<script type="text/javascript">
+           var ajaxurl = "https://www.codehim.com/wp-admin/admin-ajax.php";
+         </script>
+
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+
+
+<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7089100907045419" crossorigin="anonymous" type="text/javascript"></script>
+
+<link rel="icon" href="https://www.codehim.com/wp-content/uploads/2019/06/cropped-codehim-logo-512-480x480.png" sizes="32x32" />
+<link rel="icon" href="https://www.codehim.com/wp-content/uploads/2019/06/cropped-codehim-logo-512-480x480.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.codehim.com/wp-content/uploads/2019/06/cropped-codehim-logo-512-480x480.png" />
+<meta name="msapplication-TileImage" content="https://www.codehim.com/wp-content/uploads/2019/06/cropped-codehim-logo-512-480x480.png" />
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-80520768-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+<body id="mh-mobile" class="home blog wp-custom-logo mh-right-sb" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<div class="mh-header-mobile-nav mh-clearfix"></div>
+<header class="cm-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="inner-wrapper-1280">
+<button class="cm-trigger cm-menu-toggle"></button>
+<button class="cm-trigger cm-search-toggle"></button>
+<div class="codehim-logo">
+<a href="https://www.codehim.com">
+<img width="220px" height="41.06px" src="/img/codehim-logo.png" alt="Web Design Code Snippets - CodeHim">
+</a>
+<h1 class='tagline'> Web Design Code Snippets </h1> </div>
+<div class="cm-header-ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7089100907045419" crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-7089100907045419" data-ad-slot="8595877069"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</header>
+<nav class="codehim-navbar nav-fixed" itemscope itemtype="https://schema.org/SiteNavigationElement">
+<div class="inner-wrapper-1280">
+<ul class="navbar-items">
+<li class="cm-home"> <a href="/" class="home-link" title="CodeHim Homepage"> <span>Home</span> </a> </li>
+<li class="has-sub">
+<span class="dropdown-heading"> <i class="fa fa-sitemap nav-icon"></i> Code Snippets </span>
+<ul class="cm-sub-menu">
+<div class="ul-row">
+<li itemprop="name"><a itemprop="url" href="/category/accordion/" title="Accordion "> Accordion </a></li>
+<li itemprop="name"><a itemprop="url" href="/tag/creative/" title="Creative"> Creative </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/carousel/" title="Carousel"> Carousel </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/date-time/" title="Date & Time"> Date &amp; Time </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/gallery/" title="Gallery"> Gallery </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/lightBox/" title="LightBox"> LightBox </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/menu/" title="Menu & Nav"> Menu &amp; Nav </a></li>
+</div>
+<div class="ul-row">
+<li itemprop="name"><a itemprop="url" href="/category/modal/" title="Modal"> Modal </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/others/" title="Others "> Others </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/portfolio/" title="Portfolio"> Portfolio </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/social-media/" title="Social Media "> Social Media </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/text-input/" title="Text & Input"> Text &amp; Input </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/video-player/" title="Video Player"> Video Player </a></li>
+<li itemprop="name"><a itemprop="url" href="/category/zoom/" title=" Zoom"> Zoom </a></li>
+</div>
+</ul>
+</li>
+<li itemprop="name"> <a itemprop="url" href="/category/html5-css3/"> <i class="fa fa-css3 nav-icon"></i> HTML &amp; CSS</a>
+</li>
+<li itemprop="name"><a itemprop="url" href="/category/bootstrap/"> <i class="fa fa-cube nav-icon"></i> Bootstrap </a>
+</li>
+<li itemprop="name"> <a itemprop="url" href="/category/vanilla-javascript/"> <i class="fa fa-file-code-o nav-icon"></i> JavaScript </a> </li>
+<li itemprop="name"><a href="/category/collections/"> <i class="fa fa-database nav-icon"></i> Collections </a>
+</li>
+<span class="site-menu-links">
+<li itemprop="name"> <a itemprop="url" href="/about/"> About </a></li>
+<li itemprop="name"> <a itemprop="url" href="/contact/"> Contact </a></li>
+<li itemprop="name"> <a itemprop="url" href="/terms/"> Terms </a></li>
+</span>
+</ul>
+<form class="cm-search-form" action="/">
+<span class="cm-trigger search-close"> </span>
+<input class="cm-search-input" name="s" type="search" placeholder="Search for code">
+<button type="submit" class="cm-search-btn"><i class="fa fa-search"></i></button>
+</form>
+</div>
+</nav><div class="mh-container mh-container-outer">
+<div class="mh-wrapper mh-clearfix">
+<div id="main-content" class="mh-loop mh-content" role="main">
+<div class="cm-box"> <h2 class="box-title">Recently added Code Snippets </h2><article class="code-entry mh-loop-item mh-clearfix post-6568 post type-post status-publish format-standard has-post-thumbnail hentry category-vanilla-javascript">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/vanilla-javascript/javascript-sort-table-on-header-click/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Sort Table on Header Click" srcset="https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-768x575.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Sort Table on Header Click" href="https://www.codehim.com/vanilla-javascript/javascript-sort-table-on-header-click/" rel="bookmark">
+JavaScript Sort Table on Header Click </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>3 weeks ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/vanilla-javascript/javascript-sort-table-on-header-click/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to sort the HTML table on header click. It stores the table data in const objects <a class="mh-excerpt-more" href="https://www.codehim.com/vanilla-javascript/javascript-sort-table-on-header-click/" title="JavaScript Sort Table on Header Click">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Vanilla JavaScript" href="https://www.codehim.com/category/vanilla-javascript/">Vanilla JavaScript</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 286
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6908 post type-post status-publish format-standard has-post-thumbnail hentry category-collections">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/collections/css-button-packs-with-hover-effects/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="15+ CSS Button Packs with Hover Effects" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="15+ CSS Button Packs with Hover Effects" href="https://www.codehim.com/collections/css-button-packs-with-hover-effects/" rel="bookmark">
+15+ CSS Button Packs with Hover Effects </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>3 weeks ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/collections/css-button-packs-with-hover-effects/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>The style of buttons plays a vital role in the overall look and feel of a website theme. The buttons with attractive <a class="mh-excerpt-more" href="https://www.codehim.com/collections/css-button-packs-with-hover-effects/" title="15+ CSS Button Packs with Hover Effects">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Collections" href="https://www.codehim.com/category/collections/">Collections</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 592
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6653 post type-post status-publish format-standard has-post-thumbnail hentry category-accordion">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/accordion/javascript-accordion-with-smooth-transition/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Accordion with Smooth Transition" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Accordion with Smooth Transition" href="https://www.codehim.com/accordion/javascript-accordion-with-smooth-transition/" rel="bookmark">
+JavaScript Accordion with Smooth Transition </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>4 weeks ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/accordion/javascript-accordion-with-smooth-transition/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create an accordion with smooth transition. It comes with a simple and clean interface to <a class="mh-excerpt-more" href="https://www.codehim.com/accordion/javascript-accordion-with-smooth-transition/" title="JavaScript Accordion with Smooth Transition">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Accordion" href="https://www.codehim.com/category/accordion/">Accordion</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 210
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6581 post type-post status-publish format-standard has-post-thumbnail hentry category-text-input">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/text-input/javascript-copy-to-clipboard-button/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Copy to Clipboard Button" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Copy to Clipboard Button" href="https://www.codehim.com/text-input/javascript-copy-to-clipboard-button/" rel="bookmark">
+JavaScript Copy to Clipboard Button </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/text-input/javascript-copy-to-clipboard-button/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create copy to clipboard button. It uses Document.execCommand() feature to run copy command to save <a class="mh-excerpt-more" href="https://www.codehim.com/text-input/javascript-copy-to-clipboard-button/" title="JavaScript Copy to Clipboard Button">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Text &amp; Input" href="https://www.codehim.com/category/text-input/">Text &amp; Input</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 529
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6632 post type-post status-publish format-standard has-post-thumbnail hentry category-accordion">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/accordion/javascript-accordion-with-arrow/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Accordion with Arrow" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Accordion with Arrow" href="https://www.codehim.com/accordion/javascript-accordion-with-arrow/" rel="bookmark">
+JavaScript Accordion with Arrow </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/accordion/javascript-accordion-with-arrow/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create a responsive accordion with arrow icons. It is based on simple idea to make <a class="mh-excerpt-more" href="https://www.codehim.com/accordion/javascript-accordion-with-arrow/" title="JavaScript Accordion with Arrow">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Accordion" href="https://www.codehim.com/category/accordion/">Accordion</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 355
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6624 post type-post status-publish format-standard has-post-thumbnail hentry category-gallery">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/gallery/javascript-image-grid-different-sizes-and-width/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Image Grid Different Sizes and Width" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Image Grid Different Sizes and Width" href="https://www.codehim.com/gallery/javascript-image-grid-different-sizes-and-width/" rel="bookmark">
+JavaScript Image Grid Different Sizes and Width </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/gallery/javascript-image-grid-different-sizes-and-width/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create image grid with different sizes and width. It arrange images in a responsive masonry <a class="mh-excerpt-more" href="https://www.codehim.com/gallery/javascript-image-grid-different-sizes-and-width/" title="JavaScript Image Grid Different Sizes and Width">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Gallery" href="https://www.codehim.com/category/gallery/">Gallery</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 1,085
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6686 post type-post status-publish format-standard has-post-thumbnail hentry category-modal">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/modal/subscribe-to-our-newsletter-html-code/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Subscribe to Our Newsletter HTML Code" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Subscribe to Our Newsletter HTML Code" href="https://www.codehim.com/modal/subscribe-to-our-newsletter-html-code/" rel="bookmark">
+Subscribe to Our Newsletter HTML Code </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/modal/subscribe-to-our-newsletter-html-code/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create modal popup for Subscribe to our Newsletter HTML form. It comes with a background <a class="mh-excerpt-more" href="https://www.codehim.com/modal/subscribe-to-our-newsletter-html-code/" title="Subscribe to Our Newsletter HTML Code">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Modal" href="https://www.codehim.com/category/modal/">Modal</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 334
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6692 post type-post status-publish format-standard has-post-thumbnail hentry category-text-input">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/text-input/javascript-increment-counter-onclick/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Increment Counter onclick" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Increment Counter onclick" href="https://www.codehim.com/text-input/javascript-increment-counter-onclick/" rel="bookmark">
+JavaScript Increment Counter onclick </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/text-input/javascript-increment-counter-onclick/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create increment counter input onclick event. It comes with plus and minus buttons to increase/decrease <a class="mh-excerpt-more" href="https://www.codehim.com/text-input/javascript-increment-counter-onclick/" title="JavaScript Increment Counter onclick">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Text &amp; Input" href="https://www.codehim.com/category/text-input/">Text &amp; Input</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 299
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6697 post type-post status-publish format-standard has-post-thumbnail hentry category-menu tag-side-menu">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/menu/easy-sliding-drawer-in-vanilla-javascript/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Easy Sliding Drawer In Vanilla JavaScript" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Easy Sliding Drawer In Vanilla JavaScript" href="https://www.codehim.com/menu/easy-sliding-drawer-in-vanilla-javascript/" rel="bookmark">
+Easy Sliding Drawer In Vanilla JavaScript </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/menu/easy-sliding-drawer-in-vanilla-javascript/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This lightweight Vanilla JavaScript code snippet helps you to create an easy sliding drawer menu navigation. It comes with brand logo and <a class="mh-excerpt-more" href="https://www.codehim.com/menu/easy-sliding-drawer-in-vanilla-javascript/" title="Easy Sliding Drawer In Vanilla JavaScript">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Menu &amp; Nav" href="https://www.codehim.com/category/menu/">Menu &amp; Nav</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 720
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6501 post type-post status-publish format-standard has-post-thumbnail hentry category-carousel">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/carousel/javascript-quotes-slideshow-with-images/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Quotes-Slideshow-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Quotes Slideshow with Images" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Quotes-Slideshow-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Quotes-Slideshow-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Quotes-Slideshow-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Quotes-Slideshow-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Quotes-Slideshow-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Quotes-Slideshow.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Quotes Slideshow with Images" href="https://www.codehim.com/carousel/javascript-quotes-slideshow-with-images/" rel="bookmark">
+JavaScript Quotes Slideshow with Images </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/carousel/javascript-quotes-slideshow-with-images/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create a quotes slideshow with images. It comes with a decent interface to slide the <a class="mh-excerpt-more" href="https://www.codehim.com/carousel/javascript-quotes-slideshow-with-images/" title="JavaScript Quotes Slideshow with Images">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Carousel" href="https://www.codehim.com/category/carousel/">Carousel</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 425
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6499 post type-post status-publish format-standard has-post-thumbnail hentry category-menu">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/menu/responsive-navbar-with-vanilla-javascript/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/responsive-navbar-with-vanilla-javascript-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Responsive Navbar with Vanilla JavaScript" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/responsive-navbar-with-vanilla-javascript-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/responsive-navbar-with-vanilla-javascript-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/responsive-navbar-with-vanilla-javascript-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/responsive-navbar-with-vanilla-javascript-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/responsive-navbar-with-vanilla-javascript-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/responsive-navbar-with-vanilla-javascript.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Responsive Navbar with Vanilla JavaScript" href="https://www.codehim.com/menu/responsive-navbar-with-vanilla-javascript/" rel="bookmark">
+Responsive Navbar with Vanilla JavaScript </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/menu/responsive-navbar-with-vanilla-javascript/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This Vanilla JavaScript code snippet helps you to create a responsive navbar. It comes with a horizontal layout nav with logo and <a class="mh-excerpt-more" href="https://www.codehim.com/menu/responsive-navbar-with-vanilla-javascript/" title="Responsive Navbar with Vanilla JavaScript">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Menu &amp; Nav" href="https://www.codehim.com/category/menu/">Menu &amp; Nav</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 727
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6708 post type-post status-publish format-standard has-post-thumbnail hentry category-text-input">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/text-input/animated-number-counter-js/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/animated-number-counter-js-1-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Animated Number Counter JS" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/animated-number-counter-js-1-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/animated-number-counter-js-1-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/animated-number-counter-js-1-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/animated-number-counter-js-1-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/animated-number-counter-js-1-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/animated-number-counter-js-1.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Animated Number Counter JS" href="https://www.codehim.com/text-input/animated-number-counter-js/" rel="bookmark">
+Animated Number Counter JS </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/text-input/animated-number-counter-js/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>The Counter JS is a lightweight JavaScript plugin to create an animated number counter. It uses the requestAnimationFrame() method to perform counting <a class="mh-excerpt-more" href="https://www.codehim.com/text-input/animated-number-counter-js/" title="Animated Number Counter JS">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Text &amp; Input" href="https://www.codehim.com/category/text-input/">Text &amp; Input</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 488
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6703 post type-post status-publish format-standard has-post-thumbnail hentry category-animation-effects tag-parallax">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/animation-effects/parallax-scrolling-effect-on-text/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/parallax-scrolling-effect-on-text-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Parallax Scrolling Effect on Text" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/parallax-scrolling-effect-on-text-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/parallax-scrolling-effect-on-text-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/parallax-scrolling-effect-on-text-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/parallax-scrolling-effect-on-text-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/parallax-scrolling-effect-on-text-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/parallax-scrolling-effect-on-text.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Parallax Scrolling Effect on Text" href="https://www.codehim.com/animation-effects/parallax-scrolling-effect-on-text/" rel="bookmark">
+Parallax Scrolling Effect on Text </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/animation-effects/parallax-scrolling-effect-on-text/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This lightweight JavaScript code snippet helps you to create parallax scrolling effect on text. It follows the scrolling position and fly the <a class="mh-excerpt-more" href="https://www.codehim.com/animation-effects/parallax-scrolling-effect-on-text/" title="Parallax Scrolling Effect on Text">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Animation &amp; Effects" href="https://www.codehim.com/category/animation-effects/">Animation &amp; Effects</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 251
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6717 post type-post status-publish format-standard has-post-thumbnail hentry category-carousel tag-slider">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/carousel/image-slider-in-javascript-source-code/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Image-Slider-in-JavaScript--326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Image Slider in JavaScript Source Code" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Image-Slider-in-JavaScript--326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Image-Slider-in-JavaScript--640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Image-Slider-in-JavaScript--768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Image-Slider-in-JavaScript--678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Image-Slider-in-JavaScript--120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Image-Slider-in-JavaScript-.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Image Slider in JavaScript Source Code" href="https://www.codehim.com/carousel/image-slider-in-javascript-source-code/" rel="bookmark">
+Image Slider in JavaScript Source Code </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/carousel/image-slider-in-javascript-source-code/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript source code helps you to create an image slider. It comes with all basic features like slide images with next <a class="mh-excerpt-more" href="https://www.codehim.com/carousel/image-slider-in-javascript-source-code/" title="Image Slider in JavaScript Source Code">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Carousel" href="https://www.codehim.com/category/carousel/">Carousel</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 490
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6712 post type-post status-publish format-standard has-post-thumbnail hentry category-animation-effects">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/animation-effects/animated-website-background-with-html5/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Animated-Website-Background-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Animated Website Background with HTML5" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Animated-Website-Background-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Animated-Website-Background-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Animated-Website-Background-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Animated-Website-Background-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Animated-Website-Background-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Animated-Website-Background.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Animated Website Background with HTML5" href="https://www.codehim.com/animation-effects/animated-website-background-with-html5/" rel="bookmark">
+Animated Website Background with HTML5 </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/animation-effects/animated-website-background-with-html5/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This lightweight JavaScript code snippet helps you to create an animated background for website with HTML5 canvas. It uses requestAnimationFrame function to <a class="mh-excerpt-more" href="https://www.codehim.com/animation-effects/animated-website-background-with-html5/" title="Animated Website Background with HTML5">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Animation &amp; Effects" href="https://www.codehim.com/category/animation-effects/">Animation &amp; Effects</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 448
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6722 post type-post status-publish format-standard has-post-thumbnail hentry category-vanilla-javascript">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/vanilla-javascript/javascript-generate-random-background-color/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Generate-Random--326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Generate Random Background Color" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Generate-Random--326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Generate-Random--640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Generate-Random--768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Generate-Random--678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Generate-Random--120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Generate-Random-.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Generate Random Background Color" href="https://www.codehim.com/vanilla-javascript/javascript-generate-random-background-color/" rel="bookmark">
+JavaScript Generate Random Background Color </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/vanilla-javascript/javascript-generate-random-background-color/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create a simple tool to generate random background color with preview. It uses Math.floor() function <a class="mh-excerpt-more" href="https://www.codehim.com/vanilla-javascript/javascript-generate-random-background-color/" title="JavaScript Generate Random Background Color">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Vanilla JavaScript" href="https://www.codehim.com/category/vanilla-javascript/">Vanilla JavaScript</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 230
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6727 post type-post status-publish format-standard has-post-thumbnail hentry category-text-input">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/text-input/javascript-table-search-all-columns/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Table-Search-All-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Table Search All Columns" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Table-Search-All-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Table-Search-All-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Table-Search-All-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Table-Search-All-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Table-Search-All-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Table-Search-All.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Table Search All Columns" href="https://www.codehim.com/text-input/javascript-table-search-all-columns/" rel="bookmark">
+JavaScript Table Search All Columns </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/text-input/javascript-table-search-all-columns/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This lightweight JavaScript code snippet helps you to create table search box for all columns. It filters whole table data on keyup <a class="mh-excerpt-more" href="https://www.codehim.com/text-input/javascript-table-search-all-columns/" title="JavaScript Table Search All Columns">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Text &amp; Input" href="https://www.codehim.com/category/text-input/">Text &amp; Input</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 224
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6738 post type-post status-publish format-standard has-post-thumbnail hentry category-vanilla-javascript">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/vanilla-javascript/touch-swipe-detection-in-pure-javascript/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Touch-Swipe-Detection-in-Pu-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Touch Swipe Detection in Pure JavaScript" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Touch-Swipe-Detection-in-Pu-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Touch-Swipe-Detection-in-Pu-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Touch-Swipe-Detection-in-Pu-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Touch-Swipe-Detection-in-Pu-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Touch-Swipe-Detection-in-Pu-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Touch-Swipe-Detection-in-Pu.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Touch Swipe Detection in Pure JavaScript" href="https://www.codehim.com/vanilla-javascript/touch-swipe-detection-in-pure-javascript/" rel="bookmark">
+Touch Swipe Detection in Pure JavaScript </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/vanilla-javascript/touch-swipe-detection-in-pure-javascript/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>A simple touchscreen gesture recognition in pure JavaScript for single-cursor swipe up, down, left and right touch swipe detection. It is helpful <a class="mh-excerpt-more" href="https://www.codehim.com/vanilla-javascript/touch-swipe-detection-in-pure-javascript/" title="Touch Swipe Detection in Pure JavaScript">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Vanilla JavaScript" href="https://www.codehim.com/category/vanilla-javascript/">Vanilla JavaScript</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 351
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6750 post type-post status-publish format-standard has-post-thumbnail hentry category-vanilla-javascript">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/vanilla-javascript/javascript-dark-mode-toggle-with-local-storage/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Dark-Mode-Toggle-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript Dark Mode Toggle with Local Storage" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Dark-Mode-Toggle-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Dark-Mode-Toggle-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Dark-Mode-Toggle-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Dark-Mode-Toggle-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Dark-Mode-Toggle-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Dark-Mode-Toggle.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript Dark Mode Toggle with Local Storage" href="https://www.codehim.com/vanilla-javascript/javascript-dark-mode-toggle-with-local-storage/" rel="bookmark">
+JavaScript Dark Mode Toggle with Local Storage </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/vanilla-javascript/javascript-dark-mode-toggle-with-local-storage/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create a dark mode toggle button with local storage to save dark mode settings. The <a class="mh-excerpt-more" href="https://www.codehim.com/vanilla-javascript/javascript-dark-mode-toggle-with-local-storage/" title="JavaScript Dark Mode Toggle with Local Storage">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Vanilla JavaScript" href="https://www.codehim.com/category/vanilla-javascript/">Vanilla JavaScript</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 260
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6497 post type-post status-publish format-standard has-post-thumbnail hentry category-animation-effects tag-scrolling">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/animation-effects/vanilla-javascript-slide-in-on-scroll/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Vanilla-JavaScript-Slide-in-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Vanilla JavaScript Slide in on Scroll" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Vanilla-JavaScript-Slide-in-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Vanilla-JavaScript-Slide-in-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Vanilla-JavaScript-Slide-in-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Vanilla-JavaScript-Slide-in-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Vanilla-JavaScript-Slide-in-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Vanilla-JavaScript-Slide-in.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Vanilla JavaScript Slide in on Scroll" href="https://www.codehim.com/animation-effects/vanilla-javascript-slide-in-on-scroll/" rel="bookmark">
+Vanilla JavaScript Slide in on Scroll </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/animation-effects/vanilla-javascript-slide-in-on-scroll/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This Vanilla JavaScript code snippet helps you to create slide in animation on scroll event. It gets the page offset and applies <a class="mh-excerpt-more" href="https://www.codehim.com/animation-effects/vanilla-javascript-slide-in-on-scroll/" title="Vanilla JavaScript Slide in on Scroll">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Animation &amp; Effects" href="https://www.codehim.com/category/animation-effects/">Animation &amp; Effects</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 283
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6490 post type-post status-publish format-standard has-post-thumbnail hentry category-animation-effects">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/animation-effects/javascript-html5-canvas-animation-background/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-HTML5-Canvas-Ani-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="JavaScript HTML5 Canvas Animation Background" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-HTML5-Canvas-Ani-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-HTML5-Canvas-Ani-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-HTML5-Canvas-Ani-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-HTML5-Canvas-Ani-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-HTML5-Canvas-Ani-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-HTML5-Canvas-Ani.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="JavaScript HTML5 Canvas Animation Background" href="https://www.codehim.com/animation-effects/javascript-html5-canvas-animation-background/" rel="bookmark">
+JavaScript HTML5 Canvas Animation Background </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/animation-effects/javascript-html5-canvas-animation-background/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create HTML5 canvas animation background. It draws an attractive low-poly ribbons background effect inside a <a class="mh-excerpt-more" href="https://www.codehim.com/animation-effects/javascript-html5-canvas-animation-background/" title="JavaScript HTML5 Canvas Animation Background">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Animation &amp; Effects" href="https://www.codehim.com/category/animation-effects/">Animation &amp; Effects</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 282
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6486 post type-post status-publish format-standard has-post-thumbnail hentry category-vanilla-javascript tag-scrolling">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/vanilla-javascript/scroll-indicator-with-javascript/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Scroll-Indicator-with-JavaS-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Scroll Indicator with JavaScript" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Scroll-Indicator-with-JavaS-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Scroll-Indicator-with-JavaS-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Scroll-Indicator-with-JavaS-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Scroll-Indicator-with-JavaS-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Scroll-Indicator-with-JavaS-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Scroll-Indicator-with-JavaS.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Scroll Indicator with JavaScript" href="https://www.codehim.com/vanilla-javascript/scroll-indicator-with-javascript/" rel="bookmark">
+Scroll Indicator with JavaScript </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/vanilla-javascript/scroll-indicator-with-javascript/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create a scroll indicator. It renders both horizontal and vertical scrollbars to indicate scrolling position. <a class="mh-excerpt-more" href="https://www.codehim.com/vanilla-javascript/scroll-indicator-with-javascript/" title="Scroll Indicator with JavaScript">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Vanilla JavaScript" href="https://www.codehim.com/category/vanilla-javascript/">Vanilla JavaScript</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 206
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6482 post type-post status-publish format-standard has-post-thumbnail hentry category-vanilla-javascript">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/vanilla-javascript/smooth-scroll-to-anchor-vanilla-js/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/Smooth-Scroll-to-Anchor-Van-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Smooth Scroll to Anchor Vanilla JS" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Smooth-Scroll-to-Anchor-Van-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Smooth-Scroll-to-Anchor-Van-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Smooth-Scroll-to-Anchor-Van-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Smooth-Scroll-to-Anchor-Van-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Smooth-Scroll-to-Anchor-Van-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Smooth-Scroll-to-Anchor-Van.png 1280w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Smooth Scroll to Anchor Vanilla JS" href="https://www.codehim.com/vanilla-javascript/smooth-scroll-to-anchor-vanilla-js/" rel="bookmark">
+Smooth Scroll to Anchor Vanilla JS </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/vanilla-javascript/smooth-scroll-to-anchor-vanilla-js/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This Vanilla JS code snippet helps you to create a smooth scroll to anchor. It smoothly jumps to the section while clicking <a class="mh-excerpt-more" href="https://www.codehim.com/vanilla-javascript/smooth-scroll-to-anchor-vanilla-js/" title="Smooth Scroll to Anchor Vanilla JS">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Vanilla JavaScript" href="https://www.codehim.com/category/vanilla-javascript/">Vanilla JavaScript</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 303
+</div>
+</div>
+</article><article class="code-entry mh-loop-item mh-clearfix post-6477 post type-post status-publish format-standard has-post-thumbnail hentry category-menu">
+<figure class="mh-loop-thumb">
+<a href="https://www.codehim.com/menu/simple-dropdown-list-in-javascript/"><img width="326" height="245" src="https://www.codehim.com/wp-content/uploads/2022/05/simple-dropdown-list-in-javascript-326x245.png" class="attachment-mh-magazine-lite-medium size-mh-magazine-lite-medium wp-post-image" alt="Simple Dropdown List in JavaScript" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/simple-dropdown-list-in-javascript-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/simple-dropdown-list-in-javascript-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/simple-dropdown-list-in-javascript-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/simple-dropdown-list-in-javascript-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/simple-dropdown-list-in-javascript-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/simple-dropdown-list-in-javascript.png 822w" sizes="(max-width: 326px) 100vw, 326px" /> </a>
+</figure>
+<div class="mh-loop-content mh-clearfix">
+<header class="mh-loop-header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="entry-title mh-loop-title">
+<a title="Simple Dropdown List in JavaScript" href="https://www.codehim.com/menu/simple-dropdown-list-in-javascript/" rel="bookmark">
+Simple Dropdown List in JavaScript </a>
+</h3>
+<div class="mh-meta mh-loop-meta">
+<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>2 months ago</span>
+<span class="mh-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="https://www.codehim.com/author/asif-mughal/">Asif Mughal</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="https://www.codehim.com/menu/simple-dropdown-list-in-javascript/#mh-comments">0</a></span>
+</div>
+</header>
+<div class="mh-loop-excerpt">
+<div class="mh-excerpt"><p>This JavaScript code snippet helps you to create a simple dropdown list with icons. It converts the unordered lists to toggle dropdown <a class="mh-excerpt-more" href="https://www.codehim.com/menu/simple-dropdown-list-in-javascript/" title="Simple Dropdown List in JavaScript">&#8230;</a></p>
+</div> </div>
+</div>
+<div class="code-meta">
+<div class="code-category">
+<i class="fa fa-folder-o"></i> <a title="Menu &amp; Nav" href="https://www.codehim.com/category/menu/">Menu &amp; Nav</a> </div>
+<div class="code-views">
+<i class="fa fa-eye"></i> 302
+</div>
+</div>
+</article></div><div class="mh-loop-pagination mh-clearfix">
+<nav class="navigation pagination" aria-label="Posts">
+<h2 class="screen-reader-text">Posts navigation</h2>
+<div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://www.codehim.com/page/2/">2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://www.codehim.com/page/16/">16</a>
+<a class="next page-numbers" href="https://www.codehim.com/page/2/">&raquo;</a></div>
+</nav></div> </div>
+<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar"><div id="block-3" class="mh-widget widget_block"><div class="ad-unit"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7089100907045419" crossorigin="anonymous"></script>  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7089100907045419" data-ad-slot="5822071738" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div id="wpcategorieswidget-2" class="mh-widget widget_wpcategorieswidget"><ul class="wpcategorieswidget-2"><li class="categories"><h2 class="widget-title">Categories</h2><ul> <li class="cat-item cat-item-61"><a href="https://www.codehim.com/category/accordion/">Accordion</a> <span class="post-count">14</span>
+</li>
+<li class="cat-item cat-item-123"><a href="https://www.codehim.com/category/bootstrap/">Bootstrap</a> <span class="post-count">29</span>
+<ul class='children'>
+<li class="cat-item cat-item-125"><a href="https://www.codehim.com/category/bootstrap/bootstrap-accordion/">Bootstrap Accordion</a> <span class="post-count">1</span>
+</li>
+<li class="cat-item cat-item-128"><a href="https://www.codehim.com/category/bootstrap/bootstrap-buttons/">Bootstrap Buttons</a> <span class="post-count">3</span>
+</li>
+<li class="cat-item cat-item-215"><a href="https://www.codehim.com/category/bootstrap/bootstrap-cards/">Bootstrap Cards</a> <span class="post-count">1</span>
+</li>
+<li class="cat-item cat-item-210"><a href="https://www.codehim.com/category/bootstrap/bootstrap-carousel/">Bootstrap Carousel</a> <span class="post-count">1</span>
+</li>
+<li class="cat-item cat-item-132"><a href="https://www.codehim.com/category/bootstrap/bootstrap-dropdowns/">Bootstrap Dropdowns</a> <span class="post-count">2</span>
+</li>
+<li class="cat-item cat-item-134"><a href="https://www.codehim.com/category/bootstrap/bootstrap-forms/">Bootstrap Forms</a> <span class="post-count">6</span>
+</li>
+<li class="cat-item cat-item-138"><a href="https://www.codehim.com/category/bootstrap/bootstrap-jumbotron/">Bootstrap Jumbotron</a> <span class="post-count">1</span>
+</li>
+<li class="cat-item cat-item-142"><a href="https://www.codehim.com/category/bootstrap/bootstrap-modals/">Bootstrap Modals</a> <span class="post-count">1</span>
+</li>
+<li class="cat-item cat-item-144"><a href="https://www.codehim.com/category/bootstrap/bootstrap-navbars/">Bootstrap Navbars</a> <span class="post-count">5</span>
+</li>
+<li class="cat-item cat-item-145"><a href="https://www.codehim.com/category/bootstrap/bootstrap-panels/">Bootstrap Panels</a> <span class="post-count">1</span>
+</li>
+<li class="cat-item cat-item-147"><a href="https://www.codehim.com/category/bootstrap/bootstrap-progress-bars/">Bootstrap Progress Bars</a> <span class="post-count">1</span>
+</li>
+<li class="cat-item cat-item-207"><a href="https://www.codehim.com/category/bootstrap/bootstrap-text-input/">Bootstrap Text &amp; Input</a> <span class="post-count">3</span>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-59"><a href="https://www.codehim.com/category/carousel/">Carousel</a> <span class="post-count">34</span>
+</li>
+<li class="cat-item cat-item-111"><a href="https://www.codehim.com/category/chart-graph/">Chart &amp; Graph</a> <span class="post-count">4</span>
+</li>
+<li class="cat-item cat-item-58"><a href="https://www.codehim.com/category/date-time/">Date &amp; Time</a> <span class="post-count">30</span>
+</li>
+<li class="cat-item cat-item-51"><a href="https://www.codehim.com/category/gallery/" title="In a website, Gallery is used to display products, services or general purpose photos (wallpapers, animations or whatever you want). Arranging your contents in a gallery represents a reliable user experience and the quality of your website / app. 
+Here you can free download a variety of jQuery gallery plugins for your website project with live demo. These plugins are developed by various web designers &amp; developers using HTML, CSS and JavaScript,  jQuery . ">Gallery</a> <span class="post-count">26</span>
+</li>
+<li class="cat-item cat-item-63"><a href="https://www.codehim.com/category/html5-css3/">HTML5 &amp; CSS3</a> <span class="post-count">36</span>
+</li>
+<li class="cat-item cat-item-109"><a href="https://www.codehim.com/category/layout/">Layout</a> <span class="post-count">9</span>
+</li>
+<li class="cat-item cat-item-52"><a href="https://www.codehim.com/category/lightbox/">LightBox</a> <span class="post-count">19</span>
+</li>
+<li class="cat-item cat-item-38"><a href="https://www.codehim.com/category/menu/" title="Free jQuery Menu and Navigations Plugins for you website, blog or mobile app. Free Download new, top and latest jQuery Menu Plugins.">Menu &amp; Nav</a> <span class="post-count">52</span>
+</li>
+<li class="cat-item cat-item-44"><a href="https://www.codehim.com/category/modal/">Modal</a> <span class="post-count">14</span>
+</li>
+<li class="cat-item cat-item-56"><a href="https://www.codehim.com/category/others/">Others</a> <span class="post-count">47</span>
+</li>
+<li class="cat-item cat-item-47"><a href="https://www.codehim.com/category/portfolio/">Portfolio</a> <span class="post-count">7</span>
+</li>
+<li class="cat-item cat-item-64"><a href="https://www.codehim.com/category/social-media/">Social Media</a> <span class="post-count">8</span>
+</li>
+<li class="cat-item cat-item-97"><a href="https://www.codehim.com/category/text-input/">Text &amp; Input</a> <span class="post-count">46</span>
+</li>
+<li class="cat-item cat-item-116"><a href="https://www.codehim.com/category/vanilla-javascript/">Vanilla JavaScript</a> <span class="post-count">43</span>
+</li>
+<li class="cat-item cat-item-50"><a href="https://www.codehim.com/category/zoom/">Zoom</a> <span class="post-count">8</span>
+</li>
+</ul></li></ul></div><div id="block-2" class="mh-widget widget_block"><p><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7089100907045419" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7089100907045419" data-ad-slot="4478402808" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></p></div><div id="recent-posts-widget-with-thumbnails-3" class="mh-widget recent-posts-widget-with-thumbnails">
+<div id="rpwwt-recent-posts-widget-with-thumbnails-3" class="rpwwt-widget">
+<h2 class="mh-widget-title"><span class="mh-widget-title-inner">Latest Code Snippets</span></h2>
+<ul>
+<li><a href="https://www.codehim.com/vanilla-javascript/javascript-sort-table-on-header-click/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="JavaScript Sort Table on Header Click" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-768x575.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/javascript-sort-table-on-header-click_.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">JavaScript Sort Table on Header Click</span></a><div class="rpwwt-post-date">3 weeks ago</div></li>
+<li><a href="https://www.codehim.com/collections/css-button-packs-with-hover-effects/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="15+ CSS Button Packs with Hover Effects" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/06/candy-color-button-animation.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">15+ CSS Button Packs with Hover Effects</span></a><div class="rpwwt-post-date">3 weeks ago</div></li>
+<li><a href="https://www.codehim.com/accordion/javascript-accordion-with-smooth-transition/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="JavaScript Accordion with Smooth Transition" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-S.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">JavaScript Accordion with Smooth Transition</span></a><div class="rpwwt-post-date">4 weeks ago</div></li>
+<li><a href="https://www.codehim.com/text-input/javascript-copy-to-clipboard-button/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="JavaScript Copy to Clipboard Button" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Copy-to-Clipboar.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">JavaScript Copy to Clipboard Button</span></a><div class="rpwwt-post-date">2 months ago</div></li>
+<li><a href="https://www.codehim.com/accordion/javascript-accordion-with-arrow/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="JavaScript Accordion with Arrow" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Accordion-with-A.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">JavaScript Accordion with Arrow</span></a><div class="rpwwt-post-date">2 months ago</div></li>
+<li><a href="https://www.codehim.com/gallery/javascript-image-grid-different-sizes-and-width/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="JavaScript Image Grid Different Sizes and Width" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Image-Grid-Diffe.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">JavaScript Image Grid Different Sizes and Width</span></a><div class="rpwwt-post-date">2 months ago</div></li>
+<li><a href="https://www.codehim.com/modal/subscribe-to-our-newsletter-html-code/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="Subscribe to Our Newsletter HTML Code" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Subscribe-to-Our-Newsletter.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">Subscribe to Our Newsletter HTML Code</span></a><div class="rpwwt-post-date">2 months ago</div></li>
+<li><a href="https://www.codehim.com/text-input/javascript-increment-counter-onclick/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="JavaScript Increment Counter onclick" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/JavaScript-Increment-Counte.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">JavaScript Increment Counter onclick</span></a><div class="rpwwt-post-date">2 months ago</div></li>
+<li><a href="https://www.codehim.com/menu/easy-sliding-drawer-in-vanilla-javascript/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="Easy Sliding Drawer In Vanilla JavaScript" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-640x480.png 640w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-768x576.png 768w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2-678x509.png 678w, https://www.codehim.com/wp-content/uploads/2022/05/Easy-Sliding-Drawer-In-Vani-2.png 1280w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">Easy Sliding Drawer In Vanilla JavaScript</span></a><div class="rpwwt-post-date">2 months ago</div></li>
+<li><a href="https://www.codehim.com/blog/best-ways-to-reduce-image-file-size-online/"><img width="120" height="90" src="https://www.codehim.com/wp-content/uploads/2022/05/tinypng-120x90.png" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="TinyPNG" loading="lazy" srcset="https://www.codehim.com/wp-content/uploads/2022/05/tinypng-120x90.png 120w, https://www.codehim.com/wp-content/uploads/2022/05/tinypng-326x245.png 326w, https://www.codehim.com/wp-content/uploads/2022/05/tinypng-678x509.png 678w" sizes="(max-width: 120px) 100vw, 120px" /><span class="rpwwt-post-title">5 Best Ways to Reduce Image File Size Online</span></a><div class="rpwwt-post-date">2 months ago</div></li>
+</ul>
+</div>
+</div><div id="block-4" class="mh-widget widget_block"><div class="ad-unit"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7089100907045419" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7089100907045419" data-ad-slot="7705532493" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></aside></div>
+<div class="dim-overlay"></div>
+<div title="Back to Top" class="cm-backtotop"></div>
+</div>
+<section class="codehim-about">
+<div class="about-inner">
+<strong> About CodeHim </strong>
+<p> <a href="https://www.codehim.com"> Free Web Design Code &amp; Scripts </a> - CodeHim is one of the BEST developer websites that provide web designers and developers with a simple way to preview and download a variety of free code &amp; scripts. All codes published on CodeHim are open source, distributed under <a href="https://opensource.org/licenses" target="_blank">OSD-compliant license</a> which grants all the rights to use, study, change and share the software in modified and unmodified form. Before publishing, we test and review each code snippet to avoid errors, but we cannot warrant the full correctness of all content. All trademarks, trade names, logos, and icons are the property of their respective owners... <a href="/copyright-and-disclaimer/">find out more...</a> </p>
+</div>
+</section>
+<footer class="codehim-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+<div class="footer-inner">
+<section class="main-footer">
+<div class="codehim-links">
+<h5 class="footer-heading"> CodeHim </h5>
+<ul role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li itemprop="name"> <a itemprop="url" href="/about/"> About </a> </li>
+<li itemprop="name"> <a itemprop="url" href="/contact/"> Contact Us</a> </li>
+<li itemprop="name"> <a itemprop="url" href="/terms/">Terms and Conditions</a> </li>
+<li itemprop="name"> <a itemprop="url" href="/privacy-policy">Privacy Policy </a> </li>
+</ul>
+</div>
+<div class="category-links">
+<h5 class="footer-heading"> Top Categories</h5>
+<ul role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<li itemprop="name"> <a itemprop="url" href="/category/bootstrap/">Bootstrap Snippets </a> </li>
+<li itemprop="name"> <a itemprop="url" href="/category/vanilla-javascript/">JavaScript Snippets</a> </li>
+<li itemprop="name"> <a itemprop="url" href="/category/html5-css3/">HTML CSS Snippets </a> </li>
+<li itemprop="name"> <a itemprop="url" href="/category/menu/">Menu &amp; Nav Snippets </a> </li>
+</ul>
+</div>
+<div class="get-in-touch">
+<h5 class="footer-heading"> Get in Touch </h5>
+<p>
+<i>Follow us on social media to be updated with latest web design code &amp; scripts...</i>
+</p>
+<div class="footer-social">
+<div class="social">
+<a itemprop="sameAs" title="Subscribe on YouTube" href="https://www.youtube.com/channel/UC16aiEEtMR-5SN7MDWweQeQ" target="_blank" rel="nofollow"><span class="btn-social youtube"></span> </a>
+<a itemprop="sameAs" title="Twitter" href="https://www.twitter.com/@codehimofficial" target="_blank" rel="nofollow"> <span class="btn-social twitter"></span> </a>
+<a itemprop="sameAs" title="GitHub" href="https://www.github.com/codehimblog" target="_blank" rel="nofollow"> <span class="btn-social github"> </span> </a>
+<a itemprop="sameAs" title="Pinterest" href="https://www.pinterest.com/codehim/" target="_blank" rel="nofollow"> <span class="btn-social pin"> </span> </a>
+</div>
+</div>
+</div>
+</section>
+<div class="clear"> </div>
+<span class="copyright">
+All Rights Reserved &copy; <span itemprop="copyrightYear"> 2022 </span> - <span itemprop="url"><a href="https://www.codehim.com" title="CodeHim - Awesome Web Design Code & Scripts">CodeHim</a></span> Inc
+</span>
+</div>
+</footer>
+<style type="text/css">/* start wp categories widget CSS */.widget_wp_categories_widget{background:#fff; position:relative;}.widget_wp_categories_widget h2,.widget_wpcategorieswidget h2{color:#4a5f6d;font-size:20px;font-weight:400;margin:0 0 25px;line-height:24px;text-transform:uppercase}.widget_wp_categories_widget ul li,.widget_wpcategorieswidget ul li{font-size: 16px; margin: 0px; border-bottom: 1px dashed #f0f0f0; position: relative; list-style-type: none; line-height: 35px;}.widget_wp_categories_widget ul li:last-child,.widget_wpcategorieswidget ul li:last-child{border:none;}.widget_wp_categories_widget ul li a,.widget_wpcategorieswidget ul li a{display:inline-block;color:#007acc;transition:all .5s ease;-webkit-transition:all .5s ease;-ms-transition:all .5s ease;-moz-transition:all .5s ease;text-decoration:none;}.widget_wp_categories_widget ul li a:hover,.widget_wp_categories_widget ul li.active-cat a,.widget_wp_categories_widget ul li.active-cat span.post-count,.widget_wpcategorieswidget ul li a:hover,.widget_wpcategorieswidget ul li.active-cat a,.widget_wpcategorieswidget ul li.active-cat span.post-count{color:#ee546c}.widget_wp_categories_widget ul li span.post-count,.widget_wpcategorieswidget ul li span.post-count{height: 30px; min-width: 35px; text-align: center; background: #fff; color: #605f5f; border-radius: 5px; box-shadow: inset 2px 1px 3px rgba(0, 122, 204,.1); top: 0px; float: right; margin-top: 2px;}li.cat-item.cat-have-child > span.post-count{float:inherit;}li.cat-item.cat-item-7.cat-have-child { background: #f8f9fa; }li.cat-item.cat-have-child > span.post-count:before { content: "("; }li.cat-item.cat-have-child > span.post-count:after { content: ")"; }.cat-have-child.open-m-menu ul.children li { border-top: 1px solid #d8d8d8;border-bottom:none;}li.cat-item.cat-have-child:after{ position: absolute; right: 8px; top: 8px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAAAoklEQVQ4je3PzQpBURSG4WfknztxGS6BKOIaDQwkSXJTnI7J2rXbhSND3lqTtb/19m3+NGWANVof3LTiZpAWXVxQY4t2A0k7snXcdmGMKpY1dui8kHQik/JVOMAC9+zxlFfO6GFfSDZlaI5bFjpjWEgOhWT9rHYpu2CEPo7Z/v5KklgW37zG5JLlO0liVjTLJaumkmeyj5qUTEP2lSQxiflVHtR5PTMAQTkfAAAAAElFTkSuQmCC); content: ""; width: 18px; height: 18px;transform: rotate(270deg);}ul.children li.cat-item.cat-have-child:after{content:"";background-image: none;}.cat-have-child ul.children {display: none; z-index: 9; width: auto; position: relative; margin: 0px; padding: 0px; margin-top: 0px; padding-top: 10px; padding-bottom: 10px; list-style: none; text-align: left; background:  #f8f9fa; padding-left: 5px;}.widget_wp_categories_widget ul li ul.children li,.widget_wpcategorieswidget ul li ul.children li { border-bottom: 1px solid #fff; padding-right: 5px; }.cat-have-child.open-m-menu ul.children{display:block;}li.cat-item.cat-have-child.open-m-menu:after{transform: rotate(0deg);}.widget_wp_categories_widget > li.product_cat,.widget_wpcategorieswidget > li.product_cat {list-style: none;}.widget_wp_categories_widget > ul,.widget_wpcategorieswidget > ul {padding: 0px;}.widget_wp_categories_widget > ul li ul ,.widget_wpcategorieswidget > ul li ul {padding-left: 15px;}/* End category widget CSS*/</style><script>jQuery(document).ready(function($){jQuery('li.cat-item:has(ul.children)').addClass('cat-have-child'); jQuery('.cat-have-child').removeClass('open-m-menu');jQuery('li.cat-have-child > a').click(function(){window.location.href=jQuery(this).attr('href');return false;});jQuery('li.cat-have-child').click(function(){
+
+		var li_parentdiv = jQuery(this).parent().parent().parent().attr('class');
+		//alert(li_parentdiv);
+			if(jQuery(this).hasClass('open-m-menu')){jQuery('.cat-have-child').removeClass('open-m-menu');}else{jQuery('.cat-have-child').removeClass('open-m-menu');jQuery(this).addClass('open-m-menu');}});});</script><script type='text/javascript' src='https://www.codehim.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://www.codehim.com/wp-content/plugins/stopbadbots/assets/js/stopbadbots_fingerprint.js' id='sbb-scripts-js'></script>
+<script src="/js/codehim.js?v2.5"></script>
+</body>
+</html>
